@@ -11,10 +11,12 @@ body{
 .digit{
     font-size: 150px;
     font-size: bold;
+ 
 }
 .txt{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
+    
 
 }
 #btn-container{
@@ -29,6 +31,11 @@ body{
     border: 0px;
     cursor: pointer;
 }
+.btn:hover{
+    font-size: 18px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 1px rgb(230, 221, 221);
+}
 #start{
     background-color: rgb(11, 218, 11);
 }
@@ -38,3 +45,10 @@ body{
 #reset{
     background-color: red;
 }
+/* #container{
+    height: auto;
+    width: 800px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 1px rgb(197, 185, 185);  
+} */
